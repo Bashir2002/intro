@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="logo">
+        <h1>snap</h1>
+        <nav id="nav" class="hidden">
+          <img src="images/icon-close-menu.svg" alt="" class="close" />
+          <div id="bash">
+            <div class="one">
+              <p>Features</p>
+              <img src="images/icon-arrow-down.svg" alt="" class="arrow1" />
+            </div>
+            <ul class="feature hidden">
+              <li>
+                <img src="images/icon-todo.svg" alt="" />
+                Todo List
+              </li>
+              <li>
+                <img src="images/icon-calendar.svg" alt="" />
+                Calender
+              </li>
+              <li>
+                <img src="images/icon-reminders.svg" alt="" />
+                Reminders
+              </li>
+              <li>
+                <img src="images/icon-planning.svg" alt="" />
+                Planning
+              </li>
+            </ul>
+            <div class="two2">
+              <p>Company</p>
+              <img src="images/icon-arrow-down.svg" class="arrow2" alt="" />
+            </div>
+            <ul class="company hidden">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+            <div class="two">
+              <p>Careers</p>
+            </div>
+            <div class="two">
+              <p>About</p>
+            </div>
+          </div>
+          <div class="btn">
+            <p>Login</p>
+            <p id="reg">Register</p>
+          </div>
+        </nav>
+
+        <svg
+          class="menu"
+          width="32"
+          height="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill="#151515" fill-rule="evenodd">
+            <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z" />
+          </g>
+        </svg>
+      </section>
+      <div class="overlay hidden"></div>
+      <!-- <nav>
+        <img src="images/icon-close-menu.svg" alt="" class="close" />
+        <div class="one">
+          <p>Features</p>
+          <img src="images/icon-arrow-down.svg" alt="" class="arrow1" />
+        </div>
+        <ul class="feature hidden">
+          <li>
+            <img src="images/icon-todo.svg" alt="" />
+            Todo List
+          </li>
+          <li>
+            <img src="images/icon-calendar.svg" alt="" />
+            Calender
+          </li>
+          <li>
+            <img src="images/icon-reminders.svg" alt="" />
+            Reminders
+          </li>
+          <li>
+            <img src="images/icon-planning.svg" alt="" />
+            Planning
+          </li>
+        </ul>
+        <div class="two">
+          <p>Company</p>
+          <img src="images/icon-arrow-down.svg" class="arrow2" alt="" />
+        </div>
+        <ul class="company hidden">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </ul>
+        <div class="two">
+          <p>Careers</p>
+        </div>
+        <div class="two">
+          <p>About</p>
+        </div>
+        <div class="btn">
+          <p>Login</p>
+          <p id="reg">Register</p>
+        </div>
+      </nav> -->
+      <section class="hero">
+        <img src="images/image-hero-mobile.png" alt="" class="mobile" />
+        <img src="images/image-hero-desktop.png" alt="" class="desktop" />
+      </section>
+      <section class="info">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+      </section>
+      <section class="final">
+        <img src="images/client-databiz.svg" alt="" />
+        <img src="images/client-audiophile.svg" alt="" />
+        <img src="images/client-meet.svg" alt="" />
+        <img src="images/client-maker.svg" alt="" />
+      </section>
+    </main>
+    <!-- Features Company Careers About Login Register Make remote work Get your team
+    in sync, no matter your location. Streamline processes, create team rituals,
+    and watch productivity soar. Learn more -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
